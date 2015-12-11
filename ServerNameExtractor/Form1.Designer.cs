@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.instructionLabel = new System.Windows.Forms.Label();
             this.tBxFilePath = new System.Windows.Forms.TextBox();
             this.btnFilePath = new System.Windows.Forms.Button();
@@ -41,6 +42,8 @@
             // instructionLabel
             // 
             this.instructionLabel.AutoSize = true;
+            this.instructionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.instructionLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.instructionLabel.Location = new System.Drawing.Point(298, 128);
             this.instructionLabel.Name = "instructionLabel";
             this.instructionLabel.Size = new System.Drawing.Size(212, 13);
@@ -49,6 +52,7 @@
             // 
             // tBxFilePath
             // 
+            this.tBxFilePath.BackColor = System.Drawing.SystemColors.Info;
             this.tBxFilePath.Location = new System.Drawing.Point(159, 144);
             this.tBxFilePath.Name = "tBxFilePath";
             this.tBxFilePath.Size = new System.Drawing.Size(474, 20);
@@ -66,17 +70,19 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.Location = new System.Drawing.Point(159, 262);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(474, 331);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(354, 246);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 13);
@@ -86,6 +92,7 @@
             // savedLocationInstruction
             // 
             this.savedLocationInstruction.AutoSize = true;
+            this.savedLocationInstruction.BackColor = System.Drawing.Color.Transparent;
             this.savedLocationInstruction.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.savedLocationInstruction.Location = new System.Drawing.Point(275, 596);
             this.savedLocationInstruction.Name = "savedLocationInstruction";
@@ -96,6 +103,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(41, 38);
             this.label2.Name = "label2";
@@ -107,6 +115,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label3.Location = new System.Drawing.Point(239, 51);
             this.label3.Name = "label3";
@@ -118,6 +127,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(822, 657);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
