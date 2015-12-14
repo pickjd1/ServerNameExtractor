@@ -122,18 +122,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="backgroundImg.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="new_zealand_640.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="New_Zealand_National_Flag_Thinkstock_650x488.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="New_Zealand_flag_proposal_2015_%28Coatsworth%29.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

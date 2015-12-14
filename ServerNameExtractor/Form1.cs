@@ -50,7 +50,7 @@ namespace ServerNameExtractor
 
                     if (count != 0)
                     {
-                        if (values[0].Length != 0)
+                        if ((values[0].Length != 0) && values[7].Contains("In use"))
                         {
                             serverNames.Add(values[0]);
                         }
